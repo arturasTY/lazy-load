@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: calc(min(95%, 98rem));
+}
+
+.images__title {
+  margin: 3rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.images__each {
+  border-radius: 10px;
+  display: block;
+  margin: 2rem auto;
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+}
